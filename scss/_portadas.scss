@@ -1,0 +1,33 @@
+.jumbotron-home {
+    background-image: linear-gradient(rgba(25, 147, 204, 0.5), rgba(216, 150, 27, 0.5)), url(../img/portadaindex.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 480px;
+    color: $texto-principal;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 0;
+    margin: 0;
+}
+
+.jumbotron-clases {
+    @extend .jumbotron-home;
+    background-image: linear-gradient(rgba(25, 147, 204, 0.5), rgba(216, 150, 27, 0.5)), url(../img/clases1.jpg);
+}
+
+.jumbotron {
+    @extend .jumbotron-home;
+    background-image: linear-gradient(rgba(25, 147, 204, 0.5), rgba(216, 150, 27, 0.5)), url(../img/capacitaciones1.jpg);
+}
+
+.jumbotron1 {
+    @extend .jumbotron-home;
+    background-image: linear-gradient(rgba(25, 147, 204, 0.5), rgba(216, 150, 27, 0.5)), url(../img/Entrenamiento1.jpg);
+}
+
+.jumbotron-contacto {
+    @extend .jumbotron-home;
+    background-image: linear-gradient(rgba(25, 147, 204, 0.5), rgba(216, 150, 27, 0.5)), url(../img/contacto.jpg);
+    height: 380px;
+
+}

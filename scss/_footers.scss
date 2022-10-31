@@ -1,0 +1,21 @@
+footer {
+    background-color: $color-principal;
+    color: $texto-principal;
+    text-align: center;
+    font-size: 20px;
+    text-transform: lowercase;
+    padding: 0px;
+
+    i {
+        letter-spacing: 10px;
+        font-size: 40px;
+        color: rgb(27, 115, 216);
+
+
+        &:hover {
+            text-shadow: 0 0 5px $color-secundario;
+            transform: scale(1.2);
+            transition: all 1s ease;
+        }
+    }
+}

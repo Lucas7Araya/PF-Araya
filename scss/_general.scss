@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    &:active {
+        font-size: 23px;
+        text-decoration: none;
+        color: $texto-principal;
+    }
+}
+
+body {
+    font-family: 'Russo One', sans-serif;
+    font-size: large;
+    width: 100%;
+}
+
+h2 {
+    background-color: $color-principal;
+    color: rgba(255, 255, 255, 0.116);
+    text-transform: capitalize;
+    text-align: center;
+    padding: 0px;
+    margin: 0;
+}
+.row {
+    margin-right: 0px;
+}

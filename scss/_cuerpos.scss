@@ -1,0 +1,397 @@
+@mixin estilo-disciplinas ($color, $text-aling, $padding, $background-color) {
+    color: $color;
+    text-align: $text-aling;
+    padding: $padding;
+    background-color: $background-color
+}
+
+
+.nleft-in {
+    background-image: url(../img/index-qs.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+.nright-in {
+    background-image: url(../img/fondo-gris.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: $texto-principal;
+}
+
+.carousel-inner {
+    img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.carousel-item {
+    h5 {
+        font-size: 50px;
+        letter-spacing: 40px;
+        text-align: center;
+        text-shadow: 0 0 5px #000;
+    }
+}
+
+.carousel-item {
+    p {
+        font-size: 20px;
+        letter-spacing: 5px;
+        color: #000;
+        text-shadow: 0 0 5px rgb(94, 85, 85);
+    }
+}
+
+.nleft-clases {
+    background-image: url(../img/clases2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+
+.ncentro-clases {
+    background-image: url(../img/fondo-gris.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+
+    p {
+        font-size: 20px;
+        letter-spacing: 5px;
+        color: $texto-principal;
+        text-shadow: 0 0 5px #000;
+    }
+}
+
+.nright-clases {
+    background-image: url(../img/clases3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+
+}
+
+.nleft-clases1 {
+    background-image: url(../img/presencial.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+
+.nright-clases1 {
+    background-image: url(../img/fondo-gris.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: $texto-principal;
+}
+
+.nleft-clases2 {
+    background-image: url(../img/online.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+
+.nright-clases2 {
+    background-image: url(../img/fondo-gris.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: $texto-principal;
+}
+
+.nleft {
+    background-image: url(../img/capacitaciones3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+
+}
+
+.nright {
+    background-image: url(../img/fondo-gris.jpg);
+    background-size: cover;
+    background-position: center;
+
+    h3 {
+        text-align: center;
+        color: $texto-principal;
+    }
+
+    p {
+        color: $texto-principal;
+        font-size: 17px;
+        letter-spacing: 5px;
+        color: $texto-principal;
+        text-shadow: 0 0 5px #000;
+    }
+}
+
+.nright1 {
+    background-image: url(../img/capacitaciones2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+.nleft1 {
+    background-image: url(../img/fondo-gris.jpg);
+    background-size: cover;
+    background-position: center;
+
+    h3 {
+        text-align: center;
+        color: $texto-principal;
+    }
+
+    p {
+        color: $texto-principal;
+        font-size: 17px;
+        letter-spacing: 5px;
+        color: $texto-principal;
+        text-shadow: 0 0 5px #000;
+    }
+}
+
+.nleft2 {
+    background-image: url(../img/capacitaciones4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+.nright2 {
+    background-image: url(../img/fondo-gris.jpg);
+    background-size: cover;
+    background-position: center;
+
+    h3 {
+        text-align: center;
+        color: $texto-principal;
+    }
+
+    p {
+        color: $texto-principal;
+        font-size: 17px;
+        letter-spacing: 5px;
+        color: $texto-principal;
+        text-shadow: 0 0 5px #000;
+    }
+}
+
+.nright3 {
+    background-image: url(../img/natacion1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+.nleft3 {
+    background-image: url(../img/fondo-gris.jpg);
+    background-size: cover;
+    background-position: center;
+
+    h3 {
+        text-align: center;
+        color: $texto-principal;
+    }
+
+    p {
+        color: $texto-principal;
+        font-size: 17px;
+        letter-spacing: 5px;
+        color: $texto-principal;
+        text-shadow: 0 0 5px #000;
+    }
+}
+
+.nleft-dis {
+    background-image: url(../img/entrenamiento2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+.nright-dis {
+    background-image: url(../img/fondo-gris.jpg);
+    background-size: cover;
+    background-position: center;
+
+    h3 {
+        text-align: center;
+        color: $texto-principal;
+    }
+
+    p {
+        color: $texto-principal;
+        font-size: 17px;
+        letter-spacing: 5px;
+        color: $texto-principal;
+        text-shadow: 0 0 5px #000;
+    }
+}
+
+.funcional {
+    @include estilo-disciplinas($texto-principal, center, 15px, $color-principal)
+}
+
+.item {
+    height: 350px;
+    border: 2px solid #000;
+}
+
+.item1 {
+    background-image: url(../img/funcional.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item2 {
+    background-image: url(../img/funcional2.jpg);
+    background-size: cover;
+}
+
+.item3 {
+    background-image: url(../img/funcional4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item4 {
+    background-image: url(../img/funcional3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.running {
+    @include estilo-disciplinas($texto-principal, center, 15px, $color-principal)
+}
+
+.item5 {
+    background-image: url(../img/running1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item6 {
+    background-image: url(../img/running2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item7 {
+    background-image: url(../img/running3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item8 {
+    background-image: url(../img/running4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.ciclismo {
+    @include estilo-disciplinas($texto-principal, center, 15px, $color-principal)
+}
+
+.item9 {
+    background-image: url(../img/ciclismo1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item10 {
+    background-image: url(../img/ciclismo2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item11 {
+    background-image: url(../img/ciclismo3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item12 {
+    background-image: url(../img/ciclismo4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.natacion {
+    @include estilo-disciplinas($texto-principal, center, 15px, $color-principal)
+}
+
+.item13 {
+    background-image: url(../img/natacion1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item14 {
+    background-image: url(../img/natacion2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item15 {
+    background-image: url(../img/natacion3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item16 {
+    background-image: url(../img/natacion4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.tria {
+    @include estilo-disciplinas($texto-principal, center, 15px, $color-principal)
+}
+
+.item17 {
+    background-image: url(../img/tria1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item18 {
+    background-image: url(../img/tria2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item19 {
+    background-image: url(../img/tria3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item20 {
+    background-image: url(../img/tria4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.form-inline {
+    padding: 40px;
+    margin: 40px;
+}
+
+.btn-primary {
+    &:hover {
+        background-color: #000;
+        color: rgb(27, 115, 216);
+        transform: scaleX(1.2);
+        transition: all 1s ease
+    }
+}
