@@ -1,5 +1,5 @@
 .jumbotron-home {
-    background-image: linear-gradient(rgba(25, 147, 204, 0.5), rgba(216, 150, 27, 0.5)), url(../img/portadaindex.jpg);
+    background-image: linear-gradient(rgba(25, 147, 204, 0.5), rgba(216, 150, 27, 0.5)), url(../img/portadaindex-op.jpg);
     background-size: cover;
     background-position: center;
     height: 480px;
@@ -12,22 +12,22 @@
 
 .jumbotron-clases {
     @extend .jumbotron-home;
-    background-image: linear-gradient(rgba(25, 147, 204, 0.5), rgba(216, 150, 27, 0.5)), url(../img/clases1.jpg);
+    background-image: linear-gradient(rgba(25, 147, 204, 0.5), rgba(216, 150, 27, 0.5)), url(../img/clases1op.jpg);
 }
 
 .jumbotron {
     @extend .jumbotron-home;
-    background-image: linear-gradient(rgba(25, 147, 204, 0.5), rgba(216, 150, 27, 0.5)), url(../img/capacitaciones1.jpg);
+    background-image: linear-gradient(rgba(25, 147, 204, 0.5), rgba(216, 150, 27, 0.5)), url(../img/capacitaciones1op.jpg);
 }
 
 .jumbotron1 {
     @extend .jumbotron-home;
-    background-image: linear-gradient(rgba(25, 147, 204, 0.5), rgba(216, 150, 27, 0.5)), url(../img/Entrenamiento1.jpg);
+    background-image: linear-gradient(rgba(25, 147, 204, 0.5), rgba(216, 150, 27, 0.5)), url(../img/entrenamiento1op.jpg);
 }
 
 .jumbotron-contacto {
     @extend .jumbotron-home;
-    background-image: linear-gradient(rgba(25, 147, 204, 0.5), rgba(216, 150, 27, 0.5)), url(../img/contacto.jpg);
+    background-image: linear-gradient(rgba(25, 147, 204, 0.5), rgba(216, 150, 27, 0.5)), url(../img/contacto-op.jpg);
     height: 380px;
 
 }

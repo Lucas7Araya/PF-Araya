@@ -1,20 +1,17 @@
 * {
   margin: 0px;
   padding: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 a:active {
   font-size: 23px;
   text-decoration: none;
-  color: #fffdfd;
-}
+  color: #fffdfd; }
 
 body {
   font-family: 'Russo One', sans-serif;
   font-size: large;
-  width: 100%;
-}
+  width: 100%; }
 
 h2 {
   background-color: #061220;
@@ -22,41 +19,28 @@ h2 {
   text-transform: capitalize;
   text-align: center;
   padding: 0px;
-  margin: 0;
-}
+  margin: 0; }
 
 .row {
-  margin-right: 0px;
-}
+  margin-right: 0px; }
 
 .navbar {
-  background-color: #061220;
-}
-
-.navbar img {
-  border-radius: 60px;
-}
+  background-color: #061220; }
+  .navbar img {
+    border-radius: 60px; }
 
 .nav-link {
   color: #fffdfd;
   text-shadow: 0 0 5px #b48a4a;
-  text-transform: capitalize;
-}
-
-.nav-link:hover {
-  color: #df811d;
-}
+  text-transform: capitalize; }
+  .nav-link:hover {
+    color: #df811d; }
 
 .navbar-toggler-icon {
-  box-shadow: 0 0 5px #b48a4a;
-}
+  box-shadow: 0 0 5px #b48a4a; }
 
-.jumbotron-home,
-.jumbotron-clases,
-.jumbotron,
-.jumbotron1,
-.jumbotron-contacto {
-  background-image: linear-gradient(rgba(25, 147, 204, 0.5), rgba(216, 150, 27, 0.5)), url(../img/portadaindex.jpg);
+.jumbotron-home, .jumbotron-clases, .jumbotron, .jumbotron1, .jumbotron-contacto {
+  background-image: linear-gradient(rgba(25, 147, 204, 0.5), rgba(216, 150, 27, 0.5)), url(../img/portadaindex-op.jpg);
   background-size: cover;
   background-position: center;
   height: 480px;
@@ -64,418 +48,341 @@ h2 {
   text-shadow: 0 0 5px black;
   text-align: center;
   border-radius: 0;
-  margin: 0;
-}
+  margin: 0; }
 
 .jumbotron-clases {
-  background-image: linear-gradient(rgba(25, 147, 204, 0.5), rgba(216, 150, 27, 0.5)), url(../img/clases1.jpg);
-}
+  background-image: linear-gradient(rgba(25, 147, 204, 0.5), rgba(216, 150, 27, 0.5)), url(../img/clases1op.jpg); }
 
 .jumbotron {
-  background-image: linear-gradient(rgba(25, 147, 204, 0.5), rgba(216, 150, 27, 0.5)), url(../img/capacitaciones1.jpg);
-}
+  background-image: linear-gradient(rgba(25, 147, 204, 0.5), rgba(216, 150, 27, 0.5)), url(../img/capacitaciones1op.jpg); }
 
 .jumbotron1 {
-  background-image: linear-gradient(rgba(25, 147, 204, 0.5), rgba(216, 150, 27, 0.5)), url(../img/Entrenamiento1.jpg);
-}
+  background-image: linear-gradient(rgba(25, 147, 204, 0.5), rgba(216, 150, 27, 0.5)), url(../img/entrenamiento1op.jpg); }
 
 .jumbotron-contacto {
-  background-image: linear-gradient(rgba(25, 147, 204, 0.5), rgba(216, 150, 27, 0.5)), url(../img/contacto.jpg);
-  height: 380px;
-}
+  background-image: linear-gradient(rgba(25, 147, 204, 0.5), rgba(216, 150, 27, 0.5)), url(../img/contacto-op.jpg);
+  height: 380px; }
 
 .nleft-in {
-  background-image: url(../img/index-qs.jpg);
+  background-image: url(../img/index-qs-op.jpg);
   background-size: cover;
   background-position: center;
-  height: 450px;
-}
+  height: 450px; }
 
 .nright-in {
-  background-image: url(../img/fondo-gris.jpg);
+  background-image: url(../img/fondo1op.jpg);
   background-size: cover;
   background-position: center;
   text-align: center;
-  color: #fffdfd;
-}
+  color: #fffdfd; }
 
 .carousel-inner img {
   height: 100%;
-  width: 100%;
-}
+  width: 100%; }
 
 .carousel-item h5 {
   font-size: 50px;
   letter-spacing: 40px;
   text-align: center;
-  text-shadow: 0 0 5px #000;
-}
+  text-shadow: 0 0 5px #000; }
 
 .carousel-item p {
   font-size: 20px;
   letter-spacing: 5px;
   color: #000;
-  text-shadow: 0 0 5px #5e5555;
-}
+  text-shadow: 0 0 5px #5e5555; }
 
 .nleft-clases {
-  background-image: url(../img/clases2.jpg);
+  background-image: url(../img/clases2op.jpg);
   background-size: cover;
   background-position: center;
-  height: 350px;
-}
+  height: 350px; }
 
 .ncentro-clases {
-  background-image: url(../img/fondo-gris.jpg);
+  background-image: url(../img/fondo1op.jpg);
   background-size: cover;
   background-position: center;
-  text-align: center;
-}
-
-.ncentro-clases p {
-  font-size: 20px;
-  letter-spacing: 5px;
-  color: #fffdfd;
-  text-shadow: 0 0 5px #000;
-}
+  text-align: center; }
+  .ncentro-clases p {
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #fffdfd;
+    text-shadow: 0 0 5px #000; }
 
 .nright-clases {
-  background-image: url(../img/clases3.jpg);
+  background-image: url(../img/clases3op.jpg);
   background-size: cover;
   background-position: center;
-  height: 350px;
-}
+  height: 350px; }
 
 .nleft-clases1 {
-  background-image: url(../img/presencial.jpg);
+  background-image: url(../img/presencial-op.jpg);
   background-size: cover;
   background-position: center;
-  height: 350px;
-}
+  height: 350px; }
 
 .nright-clases1 {
-  background-image: url(../img/fondo-gris.jpg);
+  background-image: url(../img/fondo1op.jpg);
   background-size: cover;
   background-position: center;
   text-align: center;
-  color: #fffdfd;
-}
+  color: #fffdfd; }
 
 .nleft-clases2 {
-  background-image: url(../img/online.jpg);
+  background-image: url(../img/online-op.jpg);
   background-size: cover;
   background-position: center;
-  height: 350px;
-}
+  height: 350px; }
 
 .nright-clases2 {
-  background-image: url(../img/fondo-gris.jpg);
+  background-image: url(../img/fondo1op.jpg);
   background-size: cover;
   background-position: center;
   text-align: center;
-  color: #fffdfd;
-}
+  color: #fffdfd; }
 
 .nleft {
-  background-image: url(../img/capacitaciones3.jpg);
+  background-image: url(../img/capacitaciones3op.jpg);
   background-size: cover;
   background-position: center;
-  height: 450px;
-}
+  height: 450px; }
 
 .nright {
-  background-image: url(../img/fondo-gris.jpg);
+  background-image: url(../img/fondo1op.jpg);
   background-size: cover;
-  background-position: center;
-}
-
-.nright h3 {
-  text-align: center;
-  color: #fffdfd;
-}
-
-.nright p {
-  color: #fffdfd;
-  font-size: 17px;
-  letter-spacing: 5px;
-  color: #fffdfd;
-  text-shadow: 0 0 5px #000;
-}
+  background-position: center; }
+  .nright h3 {
+    text-align: center;
+    color: #fffdfd; }
+  .nright p {
+    color: #fffdfd;
+    font-size: 17px;
+    letter-spacing: 5px;
+    color: #fffdfd;
+    text-shadow: 0 0 5px #000; }
 
 .nright1 {
-  background-image: url(../img/capacitaciones2.jpg);
+  background-image: url(../img/capacitaciones2op.jpg);
   background-size: cover;
   background-position: center;
-  height: 450px;
-}
+  height: 450px; }
 
 .nleft1 {
-  background-image: url(../img/fondo-gris.jpg);
+  background-image: url(../img/fondo1op.jpg);
   background-size: cover;
-  background-position: center;
-}
-
-.nleft1 h3 {
-  text-align: center;
-  color: #fffdfd;
-}
-
-.nleft1 p {
-  color: #fffdfd;
-  font-size: 17px;
-  letter-spacing: 5px;
-  color: #fffdfd;
-  text-shadow: 0 0 5px #000;
-}
+  background-position: center; }
+  .nleft1 h3 {
+    text-align: center;
+    color: #fffdfd; }
+  .nleft1 p {
+    color: #fffdfd;
+    font-size: 17px;
+    letter-spacing: 5px;
+    color: #fffdfd;
+    text-shadow: 0 0 5px #000; }
 
 .nleft2 {
-  background-image: url(../img/capacitaciones4.jpg);
+  background-image: url(../img/capacitaciones4-op.jpg);
   background-size: cover;
   background-position: center;
-  height: 450px;
-}
+  height: 450px; }
 
 .nright2 {
-  background-image: url(../img/fondo-gris.jpg);
+  background-image: url(../img/fondo1op.jpg);
   background-size: cover;
-  background-position: center;
-}
-
-.nright2 h3 {
-  text-align: center;
-  color: #fffdfd;
-}
-
-.nright2 p {
-  color: #fffdfd;
-  font-size: 17px;
-  letter-spacing: 5px;
-  color: #fffdfd;
-  text-shadow: 0 0 5px #000;
-}
+  background-position: center; }
+  .nright2 h3 {
+    text-align: center;
+    color: #fffdfd; }
+  .nright2 p {
+    color: #fffdfd;
+    font-size: 17px;
+    letter-spacing: 5px;
+    color: #fffdfd;
+    text-shadow: 0 0 5px #000; }
 
 .nright3 {
-  background-image: url(../img/natacion1.jpg);
+  background-image: url(../img/natacion1op.jpg);
   background-size: cover;
   background-position: center;
-  height: 450px;
-}
+  height: 450px; }
 
 .nleft3 {
-  background-image: url(../img/fondo-gris.jpg);
+  background-image: url(../img/fondo1op.jpg);
   background-size: cover;
-  background-position: center;
-}
-
-.nleft3 h3 {
-  text-align: center;
-  color: #fffdfd;
-}
-
-.nleft3 p {
-  color: #fffdfd;
-  font-size: 17px;
-  letter-spacing: 5px;
-  color: #fffdfd;
-  text-shadow: 0 0 5px #000;
-}
+  background-position: center; }
+  .nleft3 h3 {
+    text-align: center;
+    color: #fffdfd; }
+  .nleft3 p {
+    color: #fffdfd;
+    font-size: 17px;
+    letter-spacing: 5px;
+    color: #fffdfd;
+    text-shadow: 0 0 5px #000; }
 
 .nleft-dis {
-  background-image: url(../img/entrenamiento2.jpg);
+  background-image: url(../img/entrenamiento2op.jpg);
   background-size: cover;
   background-position: center;
-  height: 450px;
-}
+  height: 450px; }
 
 .nright-dis {
-  background-image: url(../img/fondo-gris.jpg);
+  background-image: url(../img/fondo1op.jpg);
   background-size: cover;
-  background-position: center;
-}
-
-.nright-dis h3 {
-  text-align: center;
-  color: #fffdfd;
-}
-
-.nright-dis p {
-  color: #fffdfd;
-  font-size: 17px;
-  letter-spacing: 5px;
-  color: #fffdfd;
-  text-shadow: 0 0 5px #000;
-}
+  background-position: center; }
+  .nright-dis h3 {
+    text-align: center;
+    color: #fffdfd; }
+  .nright-dis p {
+    color: #fffdfd;
+    font-size: 17px;
+    letter-spacing: 5px;
+    color: #fffdfd;
+    text-shadow: 0 0 5px #000; }
 
 .funcional {
   color: #fffdfd;
   text-align: center;
   padding: 15px;
-  background-color: #061220;
-}
+  background-color: #061220; }
 
 .item {
   height: 350px;
-  border: 2px solid #000;
-}
+  border: 2px solid #000; }
 
 .item1 {
-  background-image: url(../img/funcional.jpg);
+  background-image: url(../img/funcional-op.jpg);
   background-size: cover;
-  background-position: center;
-}
+  background-position: center; }
 
 .item2 {
-  background-image: url(../img/funcional2.jpg);
-  background-size: cover;
-}
+  background-image: url(../img/funcional2-op.jpg);
+  background-size: cover; }
 
 .item3 {
-  background-image: url(../img/funcional4.jpg);
+  background-image: url(../img/funcional4-op.jpg);
   background-size: cover;
-  background-position: center;
-}
+  background-position: center; }
 
 .item4 {
-  background-image: url(../img/funcional3.jpg);
+  background-image: url(../img/funcional3-op.jpg);
   background-size: cover;
-  background-position: center;
-}
+  background-position: center; }
 
 .running {
   color: #fffdfd;
   text-align: center;
   padding: 15px;
-  background-color: #061220;
-}
+  background-color: #061220; }
 
 .item5 {
-  background-image: url(../img/running1.jpg);
+  background-image: url(../img/running1op.jpg);
   background-size: cover;
-  background-position: center;
-}
+  background-position: center; }
 
 .item6 {
-  background-image: url(../img/running2.jpg);
+  background-image: url(../img/running2op.jpg);
   background-size: cover;
-  background-position: center;
-}
+  background-position: center; }
 
 .item7 {
-  background-image: url(../img/running3.jpg);
+  background-image: url(../img/running3op.jpg);
   background-size: cover;
-  background-position: center;
-}
+  background-position: center; }
 
 .item8 {
-  background-image: url(../img/running4.jpg);
+  background-image: url(../img/running4op.jpg);
   background-size: cover;
-  background-position: center;
-}
+  background-position: center; }
 
 .ciclismo {
   color: #fffdfd;
   text-align: center;
   padding: 15px;
-  background-color: #061220;
-}
+  background-color: #061220; }
 
 .item9 {
-  background-image: url(../img/ciclismo1.jpg);
+  background-image: url(../img/ciclismo1op.jpg);
   background-size: cover;
-  background-position: center;
-}
+  background-position: center; }
 
 .item10 {
-  background-image: url(../img/ciclismo2.jpg);
+  background-image: url(../img/ciclismo2op.jpg);
   background-size: cover;
-  background-position: center;
-}
+  background-position: center; }
 
 .item11 {
-  background-image: url(../img/ciclismo3.jpg);
+  background-image: url(../img/ciclismo3op.jpg);
   background-size: cover;
-  background-position: center;
-}
+  background-position: center; }
 
 .item12 {
-  background-image: url(../img/ciclismo4.jpg);
+  background-image: url(../img/ciclismo4op.jpg);
   background-size: cover;
-  background-position: center;
-}
+  background-position: center; }
 
 .natacion {
   color: #fffdfd;
   text-align: center;
   padding: 15px;
-  background-color: #061220;
-}
+  background-color: #061220; }
 
 .item13 {
-  background-image: url(../img/natacion1.jpg);
+  background-image: url(../img/natacion1op.jpg);
   background-size: cover;
-  background-position: center;
-}
+  background-position: center; }
 
 .item14 {
-  background-image: url(../img/natacion2.jpg);
+  background-image: url(../img/natacion2op.jpg);
   background-size: cover;
-  background-position: center;
-}
+  background-position: center; }
 
 .item15 {
-  background-image: url(../img/natacion3.jpg);
+  background-image: url(../img/natacion3op.jpg);
   background-size: cover;
-  background-position: center;
-}
+  background-position: center; }
 
 .item16 {
-  background-image: url(../img/natacion4.jpg);
+  background-image: url(../img/natacion4op.jpg);
   background-size: cover;
-  background-position: center;
-}
+  background-position: center; }
 
 .tria {
   color: #fffdfd;
   text-align: center;
   padding: 15px;
-  background-color: #061220;
-}
+  background-color: #061220; }
 
 .item17 {
-  background-image: url(../img/tria1.jpg);
+  background-image: url(../img/tria1op.jpg);
   background-size: cover;
-  background-position: center;
-}
+  background-position: center; }
 
 .item18 {
-  background-image: url(../img/tria2.jpg);
+  background-image: url(../img/tria2op.jpg);
   background-size: cover;
-  background-position: center;
-}
+  background-position: center; }
 
 .item19 {
-  background-image: url(../img/tria3.jpg);
+  background-image: url(../img/tria3op.jpg);
   background-size: cover;
-  background-position: center;
-}
+  background-position: center; }
 
 .item20 {
-  background-image: url(../img/tria4.jpg);
+  background-image: url(../img/tria4op.jpg);
   background-size: cover;
-  background-position: center;
-}
+  background-position: center; }
 
 .form-inline {
   padding: 40px;
-  margin: 40px;
-}
+  margin: 40px; }
 
 .btn-primary:hover {
   background-color: #000;
   color: #1b73d8;
   transform: scaleX(1.2);
-  transition: all 1s ease;
-}
+  transition: all 1s ease; }
 
 footer {
   background-color: #061220;
@@ -483,17 +390,12 @@ footer {
   text-align: center;
   font-size: 20px;
   text-transform: lowercase;
-  padding: 0px;
-}
-
-footer i {
-  letter-spacing: 10px;
-  font-size: 40px;
-  color: #1b73d8;
-}
-
-footer i:hover {
-  text-shadow: 0 0 5px #df811d;
-  transform: scale(1.2);
-  transition: all 1s ease;
-}
+  padding: 0px; }
+  footer i {
+    letter-spacing: 10px;
+    font-size: 40px;
+    color: #1b73d8; }
+    footer i:hover {
+      text-shadow: 0 0 5px #df811d;
+      transform: scale(1.2);
+      transition: all 1s ease; }
